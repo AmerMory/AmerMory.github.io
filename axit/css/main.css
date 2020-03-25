@@ -207,6 +207,14 @@ body {
 
 }
 
+@media screen and (max-width: 576px) {
+
+  .header {
+    height: 1000px;
+  }
+
+}
+
 /* end header */
 /* start social media */
 
@@ -304,6 +312,15 @@ body {
   float: none;
   padding: 0px;
   text-align: center;
+}
+
+}
+
+@media screen and (max-width: 576px) {
+
+.social-media i {
+  margin: 15px 10px;
+  font-size: 2.2em;
 }
 
 }
@@ -684,6 +701,23 @@ body {
   border-radius: 0px;
   padding: .5em 2em;
   transition: all .3s ease-in-out;
+}
+
+@media screen and (max-width: 489px) {
+
+.stylish {
+  padding: 20px 0px;
+}
+
+.stylish p {
+  font-size: 75%;
+}
+
+.stylish button {
+  margin-top: 0px;
+  margin-bottom: 30px
+};
+
 }
 
 /* end stylish */
