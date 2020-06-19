@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no" />
+  <!--  <meta name="viewport" content="width=device-width, initial-scale=1" /> -->
+    <title>Blue Academy</title>
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+    <link rel="stylesheet" href="css/main.css"/>
+    <link rel="stylesheet" href="css/all.css"/>
+  </head>
+  <body>
+    <!-- start navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+        <a class="navbar-brand" href="#"><img src="img/logo.svg" class="nav-logo" /></a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#blue-nav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="blue-nav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a  class="nav-link data-scroll" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a  class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a data-scroll class="nav-link" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#pricing">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- end navbar -->
+    <!-- start hero -->
+    <section class="hero-erea" id="home">
+      <div class="container-fluid hero-img">
+        <div class="container">
+          <div class="row">
+            <div class="col hero-info">
+              <h1>YOUR TITLE HERE</h1>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+              </p>
+              <button type="button" class="btn btn-lg uppercase book-now" data-toggle="modal" data-target="#exampleModal">book now</button>
+                              <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog .modal-lg" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Book Now</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                                  <!-- start body -->
+                      <div class="book-body">
+                        <form class="book-form">
+                          <div class="container">
+                            <div class="row">
+                              <input class="form-control book-name col" type="text" placeholder="Full Name"/>
+                              <input class="form-control book-phone col" type="tel" placeholder="Phone Number"/>
+                            </div>
+                            <div class="row">
+                              <input class="form-control book-mail col" type="email" placeholder="Email"/>
+                              <select class="form-control col">
+                              <option>Phone Call</option>
+                              <option>Interview</option>
+                              </select>
+                            </div>
+                          </div>
+                        </form>
+                      </div>
+                                  <!-- end body -->
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Submit</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- end hero -->
+    <!--  start our partners-->
+    <section class="our-partners">
+      <h3 class="uppercase head-text line">our partners</h3>
+      <div class="container">
+          <div class="partners-logo">
+            <img src="img/vodafone-logo.png" class="voda" />
+            <img src="img/orange-logo.png" class="orange"/>
+            <img src="img/alex-logo.png" class="alex-uni" />
+          </div>
+      </div>
+    </section>
+
+    <!--  end our partners-->
+    <!-- start about us-->
+    <section class="about-us text-center" id="about">
+      <div class="container">
+        <h1 class="about-h1 uppercase line">about us</h1>
+        <div class="row">
+          <div class="col">
+            <img src="img/about-icon.png" class="about-icon"/>
+          </div>
+          <article class="col about-article">
+            <h2 class="uppercase"> your title here</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- end about us-->
+    <!-- start services -->
+    <section class="services" id="services">
+      <div class="container">
+        <h1 class="uppercase line head-text">services</h1>
+        <div class="row services-card text-center">
+          <div class="col english">
+            <div class="front ">
+              <h2 class="uppercase">english</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur ipsum dolo</p>
+            </div>
+            <div class="back">
+              <div class="back-contant">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col interview">
+            <div class="front">
+              <h2 class="uppercase">interview</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur ipsum dolo</p>
+            </div>
+            <div class="back">
+              <div class="back-contant">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col vodafone">
+            <div class="front">
+              <h2 class="uppercase">vodafone</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur ipsum dolo</p>
+            </div>
+            <div class="back">
+              <div class="back-contant">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- start services -->
+    <!-- start pricing -->
+    <section class="pricing" id="pricing">
+      <div class="container">
+        <div class="row">
+        <h1 class="uppercase head-text line">pricing</h1>
+          <div class="card-deck text-center">
+          <div class="card basic-card ">
+            <div class="card-body">
+              <h5 class="card-title uppercase">basic</h5>
+              <h4 class="prices"><span>$</span>30</h4>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <button class="btn basic-btn" type="button" data-toggle="modal" data-target="#exampleModal">Book Now</button>
+                              <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Book Now</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        ...
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Submit</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+          </div>
+          <div class="card premium-card">
+            <div class="card-body">
+              <h5 class="card-title uppercase">premium</h5>
+              <h4 class="prices"><span>$</span>90</h4>
+              <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+              <button class="btn premium-btn" type="button" data-toggle="modal" data-target="#exampleModal">Upgrade</button>
+                              <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Book Now</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        ...
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Submit</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+          </div>
+          <div class="card pro-card">
+            <div class="card-body">
+              <h5 class="card-title uppercase">profissional</h5>
+              <h4 class="prices"><span>$</span>60</h4>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+              <button class="btn pro-btn" type="button" data-toggle="modal" data-target="#exampleModal">Book Now</button>
+                            <!-- Modal -->
+              <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Book Now</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      ...
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary">Submit</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </section>
+    <!-- end pricing -->
+    <!-- start contact us -->
+    <section class="contact-us" id="contact">
+        <h1 class="uppercase head-text line"> contact us</h1>
+        <div class="background">
+          <div class="container">
+            <div class="row">
+              <article class="col contact">
+                <h3>Send Us A <br/> Message</h3>
+                <form class="contact-form">
+                  <input class="form-control form-mail" type="email" placeholder="Mail Address"/>
+                  <div class="row">
+                  <input class="form-control form-name col" type="text" placeholder="Your Full Name"/>
+                  <input class="form-control form-phone col" type="tel" placeholder="Phone Number"/>
+                  </div>
+                  <textarea class="form-control form-message" type="text" placeholder="Message" rows="5"></textarea>
+                  <input class="btn btn-primary form-sub" type="submit" value="Submit">
+                </form>
+              </article>
+              <div class="col map" id="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3411.520312912686!2d29.957756685476838!3d31.23401656835229!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14f5c5a6a8636f89%3A0x803647a298a7af71!2sPhi+coworking+space!5e0!3m2!1sar!2seg!4v1555947280392!5m2!1sar!2seg" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+              </div>
+            </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- end contact us -->
+    <!-- start subscribe -->
+    <div class="subscribe">
+      <div class="container">
+        <div class="row">
+          <div class="col sub-info">
+            <i class="fa fa-paper-plane fa-3x"></i>
+            <h3 class="uppercase">stay toned</h3>
+            <p> Subscribe to our newsletter & stay updated </p>
+          </div>
+          <div class="col ">
+            <div class="sub-input">
+              <input class="form-control sub-1" type="email" placeholder="ENTER YOUR EMAIL" />
+              <input class="btn btn-primary sub-2" type="submit" value="SUBSCRIBE">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- end subscribe -->
+    <!-- start footer -->
+    <footer class="footer">
+      <div class="container-img">
+        <div class="container">
+          <div class="row text-center">
+            <div class="col mission">
+              <h3>Mission</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum </p>
+            </div>
+            <div class="col vision">
+              <h3>Vision</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum </p>
+            </div>
+            <div class="col contact">
+              <i class="far fa-envelope fa-2x"></i>
+              <p> blueacademy@gmail.com </p>
+              <i class="fa fa-phone fa-2x"></i>
+              <p>+20 xxxxxxxxxxxx</p>
+            </div>
+          </div>
+          <div class="row end-footer">
+            <div class="col powerd uppercase">
+              <p>powerd by | <span><a class="finicom" href="http://www.finicom.net">finicom</a></span></p>
+            </div>
+            <div class="col">
+              <img src="img/logo-footer.png"/>
+            </div>
+            <div class="col social text-center">
+              <a href="https://www.facebook.com/BlueELCC"><i class="fab fa-facebook-f facebook"></i></a>
+              <a href=""><i class="fab fa-instagram instagram"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- end footer -->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/smooth-scroll.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
