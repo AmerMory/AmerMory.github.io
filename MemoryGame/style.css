@@ -202,5 +202,10 @@ body {
     .memory-game-container .game-block .front::before {
         font-size: 3em;
     }
+
+    .start-again div p {
+        font-size: 5em;
+        max-width: 90%;
+    }
     
 }
